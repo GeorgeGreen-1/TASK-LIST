@@ -16,16 +16,30 @@
     <h1 class="title">Sign up</h1>
     
     <form class="form" action="">
-        <button class="btn-google" onclick="">
-            <iconify-icon icon="flat-color-icons:google"></iconify-icon> 
+        <button class="btn-google cursor shadow" onclick="">
+            <iconify-icon icon="flat-color-icons:google" width="30px" height="auto"></iconify-icon> 
             connect with google
         </button>
-        <input type="email" id="email" name="email" placeholder="EMAIL" />
-        <input type="password" id="pass" name="pass" placeholde="PASSWORD" />
-        <button class="btn-signup">sign up with email</button>
+        <input type="email" 
+        class="shadow" 
+        id="email"
+        name="email"
+        placeholder="EMAIL"
+        required />
+
+        <input type="password" 
+        minlength="8" 
+        maxlength="12"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$" 
+        class="shadow" 
+        id="pass" 
+        name="pass" 
+        placeholder="PASSWORD" 
+        required />
+        <button class="btn-signup cursor">sign up with email</button>
     </form>
 
-    <p>By continuing with google or email, you agree to task`s <a href="#">Tearms of services</a> and <a href="#">Private policy</a>.</p>
+    <p class="desc">By continuing with google or email, you agree to task`s <a href="#">Tearms of services</a> and <a href="#">Private policy</a>.</p>
     </div>
     
     <img src="https://png.pngtree.com/png-vector/20191026/ourmid/pngtree-claim-form-vector-business-document-accident-survey-exam-insurance-concept-pen-png-image_1841584.jpg" alt="image" class="main-image" />
