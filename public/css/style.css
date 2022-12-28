@@ -40,6 +40,10 @@ header{
     cursor: pointer;
 }
 
+.signup-btn a{
+    color: #1E1E1E;
+}
+
 .login-btn{
     font-family: 'Inter';
     font-style: normal;
@@ -48,6 +52,7 @@ header{
     border: none;
     margin-right: 40px;
     cursor: pointer;
+    color: #1E1E1E;
 }
 
 .logo-txt{
