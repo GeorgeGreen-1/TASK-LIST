@@ -46,12 +46,16 @@ header{
 
 .login-btn{
     font-family: 'Inter';
+    background-color: white;
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
     border: none;
     margin-right: 40px;
     cursor: pointer;
+}
+
+.login-btn a{
     color: #1E1E1E;
 }
 
