@@ -101,25 +101,6 @@ body{
     padding: 27.5px 10px;
 }
 
-.btn-login{
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    justify-content: center;
-    width: 400px;
-    height: 55px;
-    background: #FF3D00;
-    border: 1px solid #C8C8C8;
-    box-shadow: -5px 4px 4px #BB2D00;
-    border-radius: 15px;
-    color: #ffffff;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    padding: 27.5px 10px;
-}
-
 .desc{
     width: 415px;
     font-style: normal;
